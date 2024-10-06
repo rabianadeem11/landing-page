@@ -131,3 +131,20 @@ nano script.js
 sudo cp -r ~/landing-page/* /var/www/html/
 clear
 exit
+sudo systemctl status nginx
+git init
+ls
+git remote add origin https://github.com/rabianadeem11/landing-page.git
+git add .
+git commit -m "Initial commit for landing page"
+git push origin master
+git .
+git add .
+git commit -m "Initial commit for landing page"
+git commit -m "checking landing page"
+cd landing-page
+git commit -m "Initial commit for landing page"
+git add .
+git commit -m "Initial commit for landing page"
+git push origin master
+exit
